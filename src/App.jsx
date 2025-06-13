@@ -58,7 +58,7 @@ function App() {
               </div>
           </div>
 
-          <div className='bg-neutral-900 p-4 self-center rounded min-w-[70%] max-w-[70%] mt-2 bg-opacity-[90%] text-center bg-cover bg-[url(https://www.textures4photoshop.com/tex/thumbs/matrix-code-animation-gif-free-animated-background-716.gif)]'>
+          <div className='bg-neutral-900 p-4 self-center rounded min-w-[70%] max-w-[70%] mt-2 bg-opacity-[90%] text-center bg-cover bg-[url(https://img.freepik.com/premium-photo/dark-theme-wallpaper-with-neon-programming-code_198067-1181446.jpg)]'>
               <div className='flex flex-col'>
                 <div className='font-mono text-2xl w-max self-center p-2 rounded text-white backdrop-blur-xl'>Skills</div>
                 <div className='max-w self-center p-2 rounded-xl mb-2 bg-neutral-900 bg-opacity-[0%] backdrop-blur-xl text-start'>
