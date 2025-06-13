@@ -14,7 +14,7 @@ function App() {
       <div className=' min-w-screen min-h-screen bg-black bg-opacity-30 p-2 rounded-2xl flex flex-col border-2'>
 
         <div className='min-w-[90%] max-w-[90%] h-max bg-sky-700 bg-opacity-0 p-2 rounded-xl flex flex-col items-center justify-center self-center'>
-          <img className='rounded-full border-4 border-white min-w-[30%]' src={sybtainLogo} alt="" />
+          <img className='rounded-full border-4 border-white min-w-[40%] max-w-[40%]' src={sybtainLogo} alt="" />
           <b className='text-2xl font-mono'>Syed Sybtain</b>
           <p className='font-mono'>Python Full Stack Developer</p>
         </div>
@@ -58,25 +58,25 @@ function App() {
               </div>
           </div>
 
-          <div className='bg-neutral-900 p-4 self-center rounded min-w-[70%] mt-2 bg-opacity-[90%] text-center bg-cover bg-[url(https://wallpapers.com/images/hd/1920x1080-hd-coding-r91n54fqny9hlmrk.jpg)]'>
+          <div className='bg-neutral-900 p-4 self-center rounded min-w-[70%] max-w-[70%] mt-2 bg-opacity-[90%] text-center bg-cover bg-[url(https://www.textures4photoshop.com/tex/thumbs/matrix-code-animation-gif-free-animated-background-716.gif)]'>
               <div className='flex flex-col'>
-                <div className='font-mono text-2xl backdrop-blur-xl w-max self-center p-2 rounded text-blue-600'>Skills</div>
-                <div className='min-w-[40%] max-w-[80%] self-center bg-black p-2 rounded-xl mb-2 bg-opacity-[50%] text-start backdrop-blur-sm'>
+                <div className='font-mono text-2xl w-max self-center p-2 rounded text-white backdrop-blur-xl'>Skills</div>
+                <div className='max-w self-center p-2 rounded-xl mb-2 bg-neutral-900 bg-opacity-[0%] backdrop-blur-xl text-start'>
                   <b className='font-bold border-b'>Languages</b>
                   {languages.map((lang,ind) => <li key={ind}>{lang}</li>  )}
                 </div>
-                <div className='min-w-[40%] max-w-[80%] self-center bg-black p-2 rounded-xl mb-2 bg-opacity-[50%] text-start backdrop-blur-sm'>
+                <div className='max-w self-center p-2 rounded-xl mb-2 bg-neutral-900 bg-opacity-[0%] backdrop-blur-xl text-start'>
                   <b className='font-bold border-b'>FrameWorks</b>
                   {frameWorks.map((fw,ind2) => <li key={ind2}>{fw}</li>  )}
                 </div>
-                <div className='min-w-[40%] max-w-[80%] self-center bg-black p-2 rounded-xl bg-opacity-[50%] text-start backdrop-blur-sm'>
+                <div className='max-w self-center p-2 rounded-xl bg-neutral-900 bg-opacity-[0%] backdrop-blur-xl text-start'>
                   <b className='font-bold self-start border-b'>Tech-Stack</b>
                   {techStack.map((ts,ind3) => <li key={ind3}>{ts}</li>  )}
                 </div>
               </div>
           </div>
 
-          <div className='bg-neutral-900 p-4 self-center rounded min-w-[30%] mt-2 bg-opacity-[50%]'>
+          <div className='bg-neutral-900 p-4 self-center rounded min-w-[30%] mt-2 bg-opacity-[90%]'>
             <b className='text-2xl font-mono text-blue-600'>Interests</b>
               {interests.map((intrs,ind4) => <li key={ind4}>{intrs}</li>  )}
           </div>
@@ -86,7 +86,7 @@ function App() {
 
         <div className='bg-slate-900 min-w-[100%] max-w-[100%] flex flex-col self-center m-4 rounded text-center border-2'>
           <b className='text-2xl font-mono slef-center'>Personal Info/Links</b>  
-          <button className='hover:scale-150 text-4xl w-max self-center' onClick={() => setShow(!show)}> {show ? "🙈" : "👀"} </button>
+          <button className='hover:scale-150 text-2xl w-max self-center animate-bounce' onClick={() => setShow(!show)}> {show ? " Hide 🙈" : "Show 👀"} </button>
           <div className={show ? 'flex flex-col self-center text-start w-max' : 'flex flex-col self-center blur-sm text-start w-max'}>
             <div>Email : <a href="mailto:sybtainsyed@gmail.com">sybtainsyed@gmail.com 📩</a> </div>
             <div>Phone : 03458843285 📞  </div>
