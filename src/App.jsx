@@ -85,7 +85,8 @@ function App() {
         </div>
 
         <div className='bg-slate-900 min-w-[100%] max-w-[100%] flex flex-col self-center m-4 rounded text-center border-2'>
-          <b className='text-2xl font-mono slef-center'>Personal Info/Links</b>  <button className='hover:scale-150 text-4xl' onClick={() => setShow(!show)}> {show ? "🙈" : "👀"} </button>
+          <b className='text-2xl font-mono slef-center'>Personal Info/Links</b>  
+          <button className='hover:scale-150 text-4xl w-max self-center' onClick={() => setShow(!show)}> {show ? "🙈" : "👀"} </button>
           <div className={show ? 'flex flex-col self-center text-start w-max' : 'flex flex-col self-center blur-sm text-start w-max'}>
             <div>Email : <a href="mailto:sybtainsyed@gmail.com">sybtainsyed@gmail.com 📩</a> </div>
             <div>Phone : 03458843285 📞  </div>
