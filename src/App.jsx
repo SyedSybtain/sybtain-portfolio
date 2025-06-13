@@ -10,11 +10,11 @@ function App() {
   const [show,setShow] = useState(false)
 
   return (
-    <div className='bg-[url(https://i.pinimg.com/originals/8e/46/15/8e46150f790fbefe438d9c2767c32ad1.gif)] min-w-screen min-h-screen text-white font-mono p-8'>
-      <div className=' min-w-screen min-h-screen bg-black bg-opacity-70 p-8 rounded-2xl flex flex-col border-2'>
+    <div className='bg-[url(https://i.pinimg.com/originals/8e/46/15/8e46150f790fbefe438d9c2767c32ad1.gif)] min-w-screen min-h-screen text-white font-mono p-4'>
+      <div className=' min-w-screen min-h-screen bg-black bg-opacity-70 p-4 rounded-2xl flex flex-col border-2'>
 
         <div className='min-w-[30%] h-max bg-sky-700 bg-opacity-90 p-4 rounded-xl flex flex-col items-center justify-center border-4 self-center'>
-          <img className='rounded-full border-4 border-white w-[300px] h-[300px]' src={sybtainLogo} alt="" />
+          <img className='rounded-full border-4 border-white min-w-[30%]' src={sybtainLogo} alt="" />
           <b>Syed Sybtain</b>
           <p>Python Full Stack Developer</p>
         </div>
