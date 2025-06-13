@@ -10,7 +10,7 @@ function App() {
   const [show,setShow] = useState(false)
 
   return (
-    <div className='bg-[url(https://i.pinimg.com/originals/8e/46/15/8e46150f790fbefe438d9c2767c32ad1.gif)] min-w-screen min-h-screen text-white font-mono p-4'>
+    <div className='bg-[url(https://i.pinimg.com/originals/8e/46/15/8e46150f790fbefe438d9c2767c32ad1.gif)] min-w-screen min-h-screen text-white font-mono p-1'>
       <div className=' min-w-screen min-h-screen bg-black bg-opacity-30 p-2 rounded-2xl flex flex-col border-2'>
 
         <div className='min-w-[90%] max-w-[90%] h-max bg-sky-700 bg-opacity-0 p-2 rounded-xl flex flex-col items-center justify-center self-center'>
