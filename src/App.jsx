@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className='bg-[url(https://i.pinimg.com/originals/8e/46/15/8e46150f790fbefe438d9c2767c32ad1.gif)] min-w-screen min-h-screen text-white font-mono p-4'>
-      <div className=' min-w-screen min-h-screen bg-black bg-opacity-30 p-4 rounded-2xl flex flex-col border-2'>
+      <div className=' min-w-screen min-h-screen bg-black bg-opacity-30 p-2 rounded-2xl flex flex-col border-2'>
 
         <div className='min-w-[90%] max-w-[90%] h-max bg-sky-700 bg-opacity-0 p-2 rounded-xl flex flex-col items-center justify-center self-center'>
           <img className='rounded-full border-4 border-white min-w-[30%]' src={sybtainLogo} alt="" />
@@ -19,7 +19,7 @@ function App() {
           <p>Python Full Stack Developer</p>
         </div>
 
-        <div className='flex flex-col bg-slate-800 min-w-[90%] max-w-[90%] rounded mt-4 p-4 border-4 border-white self-center bg-opacity-0'>
+        <div className='flex flex-col bg-slate-800 min-w-[100%] max-w-[100%] rounded mt-4 p-2 self-center bg-opacity-0'>
           <div className='bg-neutral-900 p-4 self-center rounded min-w-[90%] max-w-[90%] bg-opacity-[90%]'>
             <b className='text-4xl font-mono'>About MySelf</b>
             <p className='text-mono'>I amComputer Engineer Graduated from Comsats University Islamabad. I have passion in AI, NLP, GenAI,
@@ -56,7 +56,7 @@ function App() {
               </div>
           </div>
 
-          <div className='bg-neutral-900 p-4 self-center rounded min-w-[70%] mt-2 bg-opacity-[50%]'>
+          <div className='bg-neutral-900 p-4 self-center rounded min-w-[70%] mt-2 bg-opacity-[90%]'>
             <b className='text-4xl font-mono'>Skills</b>
               <div className='flex flex-col'>
                 <div className='min-w-[40%] max-w-[80%] self-start bg-sky-900 p-2 rounded-xl mb-2 bg-opacity-[50%]'>
@@ -82,7 +82,7 @@ function App() {
           
         </div>
 
-        <div className='bg-slate-900 min-w-[100%] max-w-[100%] self-center m-4 p-2 rounded text-center'>
+        <div className='bg-slate-900 min-w-[100%] max-w-[100%] self-center m-4 p-2 rounded text-center border-2'>
           <b className='text-4xl'>Personal Info/Links</b>  <button className='hover:scale-150 text-4xl' onClick={() => setShow(!show)}> {show ? "🙈" : "👀"} </button>
           <div className={show ? 'flex flex-col items-start text-start' : 'flex flex-col items-start blur-sm text-start'}>
             <div>Email : <a href="mailto:sybtainsyed@gmail.com">sybtainsyed@gmail.com 📩</a> </div>
