@@ -58,18 +58,18 @@ function App() {
               </div>
           </div>
 
-          <div className='bg-neutral-900 p-4 self-center rounded min-w-[70%] max-w-[70%] mt-2 bg-opacity-[90%] text-center bg-cover bg-[url(https://img.freepik.com/premium-photo/dark-theme-wallpaper-with-neon-programming-code_198067-1181446.jpg)]'>
+          <div className='bg-neutral-900 p-4 self-center rounded min-w-[70%] max-w-[70%] mt-2 bg-opacity-[0%] text-center bg-cover bg-[url(https://i.pinimg.com/originals/16/02/b2/1602b26c05ee78120695d592a68b8912.gif)]'>
               <div className='flex flex-col'>
-                <div className='font-mono text-2xl w-max self-center p-2 rounded text-white backdrop-blur-xl'>Skills</div>
-                <div className='max-w self-center p-2 rounded-xl mb-2 bg-neutral-900 bg-opacity-[0%] backdrop-blur-xl text-start'>
+                <div className='font-mono text-2xl w-max self-center p-2 rounded bg-neutral-900 bg-opacity-[0%] text-white backdrop-blur-sm'>Skills</div>
+                <div className='max-w self-center p-2 rounded-xl mb-2 bg-neutral-900 bg-opacity-[0%] text-start backdrop-blur-sm'>
                   <b className='font-bold border-b'>Languages</b>
                   {languages.map((lang,ind) => <li key={ind}>{lang}</li>  )}
                 </div>
-                <div className='max-w self-center p-2 rounded-xl mb-2 bg-neutral-900 bg-opacity-[0%] backdrop-blur-xl text-start'>
+                <div className='max-w self-center p-2 rounded-xl mb-2 bg-neutral-900 bg-opacity-[0%] text-start backdrop-blur-sm'>
                   <b className='font-bold border-b'>FrameWorks</b>
                   {frameWorks.map((fw,ind2) => <li key={ind2}>{fw}</li>  )}
                 </div>
-                <div className='max-w self-center p-2 rounded-xl bg-neutral-900 bg-opacity-[0%] backdrop-blur-xl text-start'>
+                <div className='max-w self-center p-2 rounded-xl bg-neutral-900 bg-opacity-[0%] text-start backdrop-blur-sm'>
                   <b className='font-bold self-start border-b'>Tech-Stack</b>
                   {techStack.map((ts,ind3) => <li key={ind3}>{ts}</li>  )}
                 </div>
