@@ -15,7 +15,7 @@ function App() {
 
         <div className='min-w-[30%] h-max bg-sky-700 bg-opacity-90 p-4 rounded-xl flex flex-col items-center justify-center border-4 self-center'>
           <img className='rounded-full border-4 border-white min-w-[30%]' src={sybtainLogo} alt="" />
-          <b>Syed Sybtain</b>
+          <b>Syed Sybtain Bukhari</b>
           <p>Python Full Stack Developer</p>
         </div>
 
