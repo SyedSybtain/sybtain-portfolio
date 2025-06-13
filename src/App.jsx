@@ -22,7 +22,7 @@ function App() {
         <div className='flex flex-col bg-slate-800 min-w-[100%] max-w-[100%] rounded mt-4 p-2 self-center bg-opacity-0'>
           <div className='bg-neutral-900 p-4 self-center rounded min-w-[90%] max-w-[90%] bg-opacity-[90%]'>
             <b className='text-2xl font-mono text-blue-600'>About MySelf</b>
-            <p>I amComputer Engineer Graduated from Comsats University Islamabad. I have passion in AI, NLP, GenAI,
+            <p>I am Computer Engineer Graduated from Comsats University Islamabad. I have passion in AI, NLP, GenAI,
                 Computer Vision and Python Development. This Passion leads me to do projects in these domains to learn
                 advanced techniques and contribute in projects for the benefits of Society.
             </p>
