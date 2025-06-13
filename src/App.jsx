@@ -28,47 +28,47 @@ function App() {
             </p>
           </div>
 
-          <div className='bg-neutral-900 p-4 self-center rounded min-w-[90%] max-w-[80%] mt-2 bg-opacity-[50%]'>
-            <b className='text-4xl font-mono'>Eucation</b>
+          <div className='bg-neutral-900 p-4 self-center rounded w-max mt-2 bg-opacity-[90%]'>
+            <b className='text-4xl font-mono'>Education</b>
               <li className='font-bold'>BS Computer Engineering</li>
               <p>Comsats University Isalamabad</p>
               <p>Aug 2019–July 2023 📆</p>
           </div>
 
-          <div className='bg-neutral-900 p-4 self-center rounded min-w-[90%] max-w-[90%] mt-2 bg-opacity-[50%]'>
+          <div className='bg-neutral-900 p-4 self-center rounded min-w-[90%] max-w-[90%] mt-2 bg-opacity-[90%]'>
             <b className='text-4xl font-mono'>Projects</b>
               <div className='flex flex-col'>
-                <div className='min-w-[90%] max-w-[90%] self-start bg-indigo-400 p-2 rounded-xl mb-2 bg-opacity-[50%]'>
-                  <b className='font-bold text-black'>FYP-AUTOMATIC VEHICLECHECK-INCHECK-OUT USING IOT AND DEEPLEARNING</b>
+                <div className='min-w-[90%] max-w-[90%] self-start bg-white p-2 rounded-xl mb-2 bg-opacity-[10%]'>
+                  <b className='font-bold text-xl'>FYP-AUTOMATIC VEHICLECHECK-INCHECK-OUT USING IOT AND DEEPLEARNING</b>
                   <p>This was my FYP Project to develop a smart system for Campus vehicles entering at the gate. Using IoT we limit the
                     functionality of Camera and then deploy YOLOv7 model on Raspberry Pi to detect Vehicle Type,License Plate and
                     Individual License Characters and Store results for Logging.</p>
                 </div>
-                <div className='min-w-[90%] max-w-[90%] self-end bg-indigo-400 p-2 rounded-xl mb-2 bg-opacity-[50%]'>
-                  <b className='font-bold self-start text-black'>ANCIENT ROMAN COIN CLASSIFICATION USING DEEPLEARNING</b>
+                <div className='min-w-[90%] max-w-[90%] self-end bg-white p-2 rounded-xl mb-2 bg-opacity-[10%]'>
+                  <b className='font-bold text-xl'>ANCIENT ROMAN COIN CLASSIFICATION USING DEEPLEARNING</b>
                   <p>Trained and Analyze the Performance of Yolov3, Yolov4, Yolov5, Yolov7 and Yolov8 for Classification of Roman Coins.
                     I Contributed with Training and Fine Tuning of Different Model Versions and Sizes.</p>
                 </div>
-                <div className='min-w-[90%] max-w-[90%] self-start bg-indigo-400 p-2 rounded-xl bg-opacity-[50%]'>
-                  <b className='font-bold self-start text-black'>REMOTE FIRE AND SMOKE DETECTION</b>
+                <div className='min-w-[90%] max-w-[90%] self-start bg-white p-2 rounded-xl bg-opacity-[10%]'>
+                  <b className='font-bold text-xl'>REMOTE FIRE AND SMOKE DETECTION</b>
                   <p>Developed a Real-Time Yolov5 model of different sizes to detect the smoke and fire for remote safety application.</p>
                 </div>
               </div>
           </div>
 
-          <div className='bg-neutral-900 p-4 self-center rounded min-w-[70%] mt-2 bg-opacity-[90%]'>
-            <b className='text-4xl font-mono'>Skills</b>
+          <div className='bg-neutral-900 p-4 self-center rounded min-w-[70%] mt-2 bg-opacity-[90%] text-center bg-cover bg-[url(https://wallpapers.com/images/hd/1920x1080-hd-coding-r91n54fqny9hlmrk.jpg)]'>
               <div className='flex flex-col'>
-                <div className='min-w-[40%] max-w-[80%] self-start bg-sky-900 p-2 rounded-xl mb-2 bg-opacity-[50%]'>
-                  <b className='font-bold font-mono'>Languages</b>
+                <div className='font-mono text-4xl backdrop-blur-xl w-max self-center p-2 rounded'>Skills</div>
+                <div className='min-w-[40%] max-w-[80%] self-center bg-black p-2 rounded-xl mb-2 bg-opacity-[50%] text-start backdrop-blur-sm'>
+                  <b className='font-bold text-2xl font-mono text-center'>Languages</b>
                   {languages.map((lang,ind) => <li key={ind}>{lang}</li>  )}
                 </div>
-                <div className='min-w-[40%] max-w-[80%] self-end bg-sky-900 p-2 rounded-xl mb-2 bg-opacity-[50%]'>
-                  <b className='font-bold font-mono'>FrameWorks</b>
+                <div className='min-w-[40%] max-w-[80%] self-center bg-black p-2 rounded-xl mb-2 bg-opacity-[50%] text-start backdrop-blur-sm'>
+                  <b className='font-bold text-2xl font-mono'>FrameWorks</b>
                   {frameWorks.map((fw,ind2) => <li key={ind2}>{fw}</li>  )}
                 </div>
-                <div className='min-w-[40%] max-w-[80%] self-start bg-sky-900 p-2 rounded-xl bg-opacity-[50%]'>
-                  <b className='font-bold self-start font-mono'>Tech-Stack</b>
+                <div className='min-w-[40%] max-w-[80%] self-center bg-black p-2 rounded-xl bg-opacity-[50%] text-start backdrop-blur-sm'>
+                  <b className='font-bold text-2xl self-start font-mono'>Tech-Stack</b>
                   {techStack.map((ts,ind3) => <li key={ind3}>{ts}</li>  )}
                 </div>
               </div>
